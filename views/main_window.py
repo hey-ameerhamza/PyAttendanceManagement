@@ -15,7 +15,7 @@ class MainWindow(tk.Tk):
   def __init__(self):
     super().__init__()
 
-    self.title("Attendance Management System")
+    self.title("Attendance Management System (by Hamza)")
     self.geometry("950x650")
     self.minsize(850, 550)
 
@@ -43,7 +43,7 @@ class MainWindow(tk.Tk):
 
     title_label = ttk.Label(
         header_frame,
-        text="🎓 Attendance Management System",
+        text="🎓 Attendance Management System (by Hamza)",
         style="Header.TLabel",
     )
     title_label.pack(side=tk.LEFT, padx=20, pady=12)
